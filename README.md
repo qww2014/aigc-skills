@@ -31,13 +31,27 @@ skills/novel-storyboard/references/h3-prompt.md
 
 ## 安装到 Canvas
 
-Canvas 支持上传 Markdown 或 ZIP 技能包。若上传整个目录，压缩包根目录必须直接包含：
+Canvas 支持上传 Markdown 或 ZIP 技能包。本仓库已按 Canvas 官方 `plugin-packages` 风格提供可直接上传的 `.yingce-plugin` 包：
 
 ```text
-SKILL.md
+plugin-packages/
+├── <package-id>/
+│   ├── SKILL.md
+│   ├── manifest.json
+│   ├── README.md
+│   ├── docs/interface.md
+│   └── skills/
+└── <package-id>.yingce-plugin
 ```
 
-本仓库用于长期维护和版本同步；Canvas 端建议使用合并后的主入口分别安装。
+每个 ZIP 的根目录直接包含 `SKILL.md`，可在 Canvas 中单独安装。构建命令：
+
+```bash
+cd plugin-packages
+./build-packages.sh
+```
+
+本仓库用于长期维护和版本同步；Canvas 端建议按需安装 `plugin-packages/` 下的 12 个合并主入口。`skills/` 是完整规范源，`plugin-packages/` 是分发层，二者不要手工分叉维护。
 
 ## 安全边界
 

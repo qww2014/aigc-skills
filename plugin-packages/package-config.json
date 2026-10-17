@@ -1,0 +1,93 @@
+{
+  "version": "1.0.0",
+  "author": "qww2014",
+  "packages": [
+    {
+      "id": "aigc-skill-router",
+      "name": "AIGC Skill Router",
+      "category": "入口",
+      "description": "AIGC 技能统一路由入口，按任务类型和目标模型选择合并后的生产 Skill。",
+      "source": "aigc-skill-router",
+      "externalDependencies": ["zealman-remote-comfyui"]
+    },
+    {
+      "id": "aigc-production-ops",
+      "name": "AIGC Production Ops",
+      "category": "工作流",
+      "description": "管理 AIGC 项目、ComfyUI 工作流、资产连续性与本地或远程执行。",
+      "source": "aigc-production-ops",
+      "externalDependencies": ["zealman-remote-comfyui"]
+    },
+    {
+      "id": "story-to-outline",
+      "name": "Story to Outline",
+      "category": "故事",
+      "description": "将故事想法、小说或短片需求发展成结构化故事蓝图与短剧大纲。",
+      "source": "story-to-outline"
+    },
+    {
+      "id": "screenplay-production",
+      "name": "Screenplay Production",
+      "category": "剧本",
+      "description": "统一处理通用剧本写作与可被 AI 短剧分镜消费的结构化剧本。",
+      "source": "screenplay-production"
+    },
+    {
+      "id": "aigc-asset-bible",
+      "name": "AIGC Asset Bible",
+      "category": "资产",
+      "description": "统一规划角色、场景、道具和角色参考图资产。",
+      "source": "aigc-asset-bible"
+    },
+    {
+      "id": "visual-direction",
+      "name": "Visual Direction",
+      "category": "视觉",
+      "description": "统一处理可控视觉提示词、视觉基调、摄影机变量和巨物史诗视觉。",
+      "source": "visual-direction"
+    },
+    {
+      "id": "storyboard-and-action",
+      "name": "Storyboard and Action",
+      "category": "视频",
+      "description": "统一处理镜头语法、景别配方、短剧分镜、叙事短片与动作分镜。",
+      "source": "storyboard-and-action"
+    },
+    {
+      "id": "minimax-h3-prompting",
+      "name": "MiniMax H3 Prompting",
+      "category": "模型协议",
+      "description": "为 MiniMax H3/即梦 H3 编写和校验 I2VA 多图对齐视频提示词。",
+      "source": "minimax-h3-prompting"
+    },
+    {
+      "id": "seedance-prompting",
+      "name": "Seedance Prompting",
+      "category": "模型协议",
+      "description": "为 Seedance 2.0、2.0 Fast/Mini 与 2.5 编写和校验视频提示词。",
+      "source": "seedance-prompting"
+    },
+    {
+      "id": "wan3-prompting",
+      "name": "Wan 3 Prompting",
+      "category": "模型协议",
+      "description": "为 Wan 3.0 编写文本生成、首尾帧、参考、编辑与延长提示词。",
+      "source": "wan3-prompting"
+    },
+    {
+      "id": "audiovisual-editing",
+      "name": "Audiovisual Editing",
+      "category": "视听",
+      "description": "统一处理声画关系、剪辑节奏、连续性、平行剪辑和转场。",
+      "source": "audiovisual-editing",
+      "externalDependencies": ["openchatcut", "jianying-editor"]
+    },
+    {
+      "id": "jianying-editor",
+      "name": "JianYing Editor",
+      "category": "剪辑后端",
+      "description": "剪映 AI 自动化剪辑与草稿管理 Skill。",
+      "source": "jianying-editor"
+    }
+  ]
+}
