@@ -1,0 +1,15 @@
+# Local/private configuration
+**/.env
+**/.env.*
+**/config.local.json
+**/*.key
+**/*.pem
+**/*secret*
+**/*token*
+
+# OS/editor artifacts
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
