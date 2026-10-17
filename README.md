@@ -44,3 +44,4 @@ SKILL.md
 - 不提交 `.env`、API key、token、私钥或本机私有配置。
 - `character-refs/config.local.json` 已从公开仓库排除。
 - 原始目录不删除，方便回溯、兼容旧调用和维护 references。
+- 仓库内引用统一使用相对路径；`<...>` 形式的路径是使用者本机需要替换的环境变量。

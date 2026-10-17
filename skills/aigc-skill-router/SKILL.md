@@ -15,4 +15,4 @@ description: 统一路由 dsh-comfy 的 AIGC 技能。用户需求明确时选�
 - 本地/远程 ComfyUI 执行：分别读取 `dsh-comfyui-workflows/SKILL.md` 或 `zealman-remote-comfyui` Skill
 - 已明确指定 H3、Seedance、Wan：直接进入对应模型协议入口，不先问路由问题
 
-完整源索引：`/Users/qiaoziyu/ai/dsh/dsh-comfy/skills/index.json`
+完整源索引：`skills/index.json`

@@ -5,7 +5,7 @@ description: 为 MiniMax H3/即梦 H3 编写、改写和校验 I2VA 多图对齐
 
 # MiniMax H3
 
-规范来源：`/Users/qiaoziyu/ai/dsh/dsh-comfy/skills/novel-storyboard/references/h3-prompt.md`
+规范来源：`skills/novel-storyboard/references/h3-prompt.md`
 
 短剧分镜另读 `novel-storyboard/references/shot-writing.md`；动作戏另读 `fight-prompt-director/SKILL.md`；参考图另读 `character-refs/SKILL.md`。
 

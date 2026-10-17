@@ -176,9 +176,9 @@ if __name__ == "__main__":
 
 本机细节见 [LOCAL-INSTALL.md](LOCAL-INSTALL.md)。要点：
 
-- 仓库在 `/Users/qiaoziyu/ai/jianying-editor-skill`，DSH 通过 `~/.dsh/skills/jianying-editor` 软链加载。
+- 仓库路径由本机配置决定，DSH 可通过 `~/.dsh/skills/jianying-editor` 软链加载。
 - **一律用 venv 解释器跑脚本**（系统 `python3` 是 3.14，无依赖）：
-  `/Users/qiaoziyu/ai/jianying-editor-skill/.venv/bin/python <SKILL_ROOT>/scripts/draft_inspector.py list --limit 20`
-- 草稿根目录：`/Users/qiaoziyu/Movies/JianyingPro/User Data/Projects/com.lveditor.draft`
+  `<JIAN_YING_SKILL_ROOT>/.venv/bin/python <SKILL_ROOT>/scripts/draft_inspector.py list --limit 20`
+- 草稿根目录：`<JIAN_YING_DRAFT_ROOT>`
 - `uiautomation` 是 Windows 专属库，本机未装 → **自动导出不可用**；macOS 流程是生成草稿后在剪映里手动导出。
 - 草稿生成/字幕/配音/录屏/Web-to-Video 均可用；已装 playwright chromium。
