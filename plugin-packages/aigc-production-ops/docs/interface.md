@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "aigc-production-ops",
   "name": "AIGC Production Ops",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "管理 AIGC 项目、ComfyUI 工作流、资产连续性与本地或远程执行。",
   "enabled": true,

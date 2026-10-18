@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "aigc-skill-router",
   "name": "AIGC Skill Router",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "AIGC 技能统一路由入口，按任务类型和目标模型选择合并后的生产 Skill。",
   "enabled": true,

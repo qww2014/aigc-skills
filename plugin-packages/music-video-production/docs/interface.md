@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "music-video-production",
   "name": "Music Video Production",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "处理歌词或 MV 剧本驱动的音乐视频制作、素材导入、9 宫格故事板和 Seedance 任务清单。",
   "enabled": true,

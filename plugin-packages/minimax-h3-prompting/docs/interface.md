@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "minimax-h3-prompting",
   "name": "MiniMax H3 Prompting",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "为 MiniMax H3/即梦 H3 编写和校验 I2VA 多图对齐视频提示词。",
   "enabled": true,

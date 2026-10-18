@@ -12,6 +12,7 @@
 
 - `dsh-comfyui-workflows`：区分 ComfyUI 图工作流与 API 工作流，分析连通分量，提取/运行/维护工作流技能包。
 - `hell-grind-aigc-skill`：模型无关的 AIGC 项目管理、提示词、资产/镜头/版本/连续性、审计与失败诊断；提示词不等于生成授权。
+- `aigc-production-ops` 的 `core-production-techniques`：统一记录角色/声音/场景资产、空间地图、预演镜头、关系式尺度、摄影结果和真实物理运动等跨模型制作方法。
 
 ### 视觉、提示词、摄影
 

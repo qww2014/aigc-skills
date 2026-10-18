@@ -15,6 +15,9 @@ function rewriteSkillReferences(text, sourceSkill) {
     .replace(/`([a-z0-9-]+)\/SKILL\.md`/g, "`skills/$1/SKILL.md`")
     .replace(/`([a-z0-9-]+)\/references\//g, "`skills/$1/references/")
     .replace(/`([a-z0-9-]+)\/scripts\//g, "`skills/$1/scripts/")
+    .replace(/`references\//g, `\`skills/${sourceSkill}/references/`)
+    .replace(/`scripts\//g, `\`skills/${sourceSkill}/scripts/`)
+    .replace(/`assets\//g, `\`skills/${sourceSkill}/assets/`)
     .replace(/\]\(references\//g, `](skills/${sourceSkill}/references/`)
     .replace(/\]\(scripts\//g, `](skills/${sourceSkill}/scripts/`)
     .replace(/\]\(assets\//g, `](skills/${sourceSkill}/assets/`);

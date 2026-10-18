@@ -17,7 +17,7 @@ Draft inspector CLI:
 For generic editing requests, always follow the "Quick Edit Runtime Template" and "Acceptance Checklist" in that playbook.
 
 ## 🚨 重要开发原则 (CRITICAL DEVELOPER RULES)
-1.  **脚本位置**：**禁止在 Skill 内部目录创建剪辑脚本**。所有的剪辑逻辑实现代码（`.py` 脚本）必须存放在用户当前项目的**根目录**（或子目录，如 `scripts/`），以保持 Skill 库的纯净和可移植性。
+1.  **脚本位置**：**禁止在 Skill 内部目录创建剪辑脚本**。所有的剪辑逻辑实现代码（`.py` 脚本）必须存放在用户当前项目的**根目录**（或子目录，如 `skills/jianying-editor/scripts/`），以保持 Skill 库的纯净和可移植性。
 2.  **版本与架构**：
     - **双平台适配**：已全面支持 MacOS (路径探测/录屏) 与 Windows。
     - **Auto-healing**：支持 v5.9+ (`draft_info.json`)。若草稿损坏或版本冲突，使用 `overwrite=True` 初始化 `JyProject` 可触发自动修复。
@@ -48,7 +48,7 @@ Read the individual rule files for specific tasks and constraints:
 - 旁白与字幕对齐：`rules/text.md` + `rules/audio-voice.md` -> `examples/cloud_video_music_tts_demo.py`
 - 录屏与智能变焦：`rules/recording.md` -> `tools/recording/recorder.py`
 - 批量导出/无头导出：`rules/core.md` + `rules/cli.md` -> `examples/robust_auto_export.py`
-- 影视解说生成：`rules/generative.md` -> `scripts/movie_commentary_builder.py`
+- 影视解说生成：`rules/generative.md` -> `skills/jianying-editor/scripts/movie_commentary_builder.py`
 
 ## 📖 经典示例 (Examples)
 

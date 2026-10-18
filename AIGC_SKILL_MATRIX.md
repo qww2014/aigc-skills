@@ -20,6 +20,7 @@
 |---|---|---|
 | `dsh-comfyui-workflows` | 分析、提取、运行和维护 ComfyUI 工作流 | ComfyUI 工作流专用 |
 | `hell-grind-aigc-skill` | 管理 AIGC 项目、资产、镜头、生成记录和连续性 | 模型无关的项目总管 |
+| `aigc-production-ops/core-production-techniques` | 角色/声音/场景资产、空间地图、预演、关系式尺度、摄影结果和真实物理 | 跨模型制作控制层 |
 | `dsh-comfy-skill-router` | 在 29 个 dsh-comfy Skill 中路由 | Codex 入口，不产出内容 |
 | `oac-pack-router` | 面对模糊创作需求时选择域包/技能 | 需求分流，不产出内容 |
 | `zealman-remote-comfyui` | 远程 ZEALMAN/ComfyUI 调度、上传、执行、取回 | 远程执行层 |

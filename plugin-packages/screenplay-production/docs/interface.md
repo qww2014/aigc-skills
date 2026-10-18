@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "screenplay-production",
   "name": "Screenplay Production",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "统一处理通用剧本写作与可被 AI 短剧分镜消费的结构化剧本。",
   "enabled": true,

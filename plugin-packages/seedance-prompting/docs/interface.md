@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "seedance-prompting",
   "name": "Seedance Prompting",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "为 Seedance 2.0、2.0 Fast/Mini 与 2.5 编写和校验视频提示词。",
   "enabled": true,

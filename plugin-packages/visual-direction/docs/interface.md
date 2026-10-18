@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "visual-direction",
   "name": "Visual Direction",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "统一处理可控视觉提示词、视觉基调、摄影机变量和巨物史诗视觉。",
   "enabled": true,

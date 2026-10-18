@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "aigc-asset-bible",
   "name": "AIGC Asset Bible",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "qww2014",
   "description": "统一规划角色、场景、道具和角色参考图资产。",
   "enabled": true,

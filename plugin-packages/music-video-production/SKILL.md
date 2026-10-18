@@ -41,10 +41,10 @@ description: 处理歌词或 MV 剧本驱动的音乐视频制作：项目初始
 
 ## 必读参考
 
-- 项目目录、编号和元数据：[`references/project-schema.md`](skills/music-video-production/references/project-schema.md)
-- 素材导入与资产完整性：[`references/asset-import-and-qa.md`](skills/music-video-production/references/asset-import-and-qa.md)
-- 15 秒段落与 9 宫格配置：[`references/storyboard-schema.md`](skills/music-video-production/references/storyboard-schema.md)
-- Seedance 任务清单与引用规则：[`references/seedance-tasks.md`](skills/music-video-production/references/seedance-tasks.md)
+- 项目目录、编号和元数据：[`skills/music-video-production/references/project-schema.md`](skills/music-video-production/references/project-schema.md)
+- 素材导入与资产完整性：[`skills/music-video-production/references/asset-import-and-qa.md`](skills/music-video-production/references/asset-import-and-qa.md)
+- 15 秒段落与 9 宫格配置：[`skills/music-video-production/references/storyboard-schema.md`](skills/music-video-production/references/storyboard-schema.md)
+- Seedance 任务清单与引用规则：[`skills/music-video-production/references/seedance-tasks.md`](skills/music-video-production/references/seedance-tasks.md)
 
 ## 质量门
 
