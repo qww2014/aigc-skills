@@ -1,10 +1,10 @@
 # dsh-comfy 技能目录记录
 
-扫描日期：2026-10-16  
-规范索引：[index.json](./index.json)（version 2）  
+扫描日期：2026-10-18
+规范索引：[index.json](./index.json)（version 4）
 技能入口：每个子目录下的 `SKILL.md`
 
-本目录当前有 29 个规范入口。完整规则仍以各技能的 `SKILL.md`、`references/`、`cards/` 和 `scripts/` 为准；本文件只做路由速查和跨技能边界记录。
+本目录当前登记 41 个入口（13 个默认合并入口 + 28 个兼容源）。完整规则仍以各技能的 `SKILL.md`、`references/`、`cards/` 和 `scripts/` 为准；本文件只做路由速查和跨技能边界记录。
 
 ## 技能分组
 
@@ -39,6 +39,7 @@
 - `novel-storyboard`：AI 短剧分镜；段不超过 15 秒、段内切镜 2–5 秒、每个节拍恰好被一个镜头认领；可导出 H3/Seedance 提示词，18 道质量门。
 - `oac-shortfilm-five-stages`：短片五阶段、微短剧形态、主体/氛围双锁、模板分支和 IP 安全。
 - `oac-shortdrama-workflow`：小说/故事/剧本→剧本→草分镜→资产锁定→制作分镜→分镜板→视频→核验交付；严格区分状态、授权、真实任务和可核验结果。
+- `music-video-production`：歌词/音乐结构驱动的 MV 项目；15 秒段落、9 宫格、素材导入、资产完整性和 Seedance 任务清单。
 
 ### 小说短剧生产链
 
@@ -68,6 +69,7 @@ oac-story-development / oac-story-structure
   → novel-characters + novel-art（需要真正出图时转 character-refs）
   → novel-script / oac-screenwriting
   → novel-storyboard / oac-shot-grammar / action-storyboard-director
+  → music-video-production（歌词/歌曲驱动时）
   → oac-visual-prompting / oac-seedance-prompting / fight-prompt-director / cinematic-camera-variables
   → oac-audiovisual-theory / oac-editing-rhythm / jianying-editor
 ```

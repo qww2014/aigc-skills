@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "description": "窗口1 AIGC 技能统一目录索引；默认使用合并入口，原始 skill 保留为兼容源",
+  "version": 4,
+  "description": "AIGC 技能统一目录索引；当前提供 13 个合并入口，原始 skill 保留为兼容源",
   "default_mode": "merged",
   "skills": [
     {"id":"aigc-skill-router","path":"aigc-skill-router/SKILL.md","category":"入口"},
@@ -10,6 +10,7 @@
     {"id":"aigc-asset-bible","path":"aigc-asset-bible/SKILL.md","category":"资产"},
     {"id":"visual-direction","path":"visual-direction/SKILL.md","category":"视觉"},
     {"id":"storyboard-and-action","path":"storyboard-and-action/SKILL.md","category":"视频"},
+    {"id":"music-video-production","path":"music-video-production/SKILL.md","category":"视频/MV"},
     {"id":"minimax-h3-prompting","path":"minimax-h3-prompting/SKILL.md","category":"模型协议"},
     {"id":"seedance-prompting","path":"seedance-prompting/SKILL.md","category":"模型协议"},
     {"id":"wan3-prompting","path":"wan3-prompting/SKILL.md","category":"模型协议"},

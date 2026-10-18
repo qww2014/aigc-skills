@@ -9,12 +9,15 @@ const config = JSON.parse(await readFile(join(root, "package-config.json"), "utf
 
 const yaml = (value) => JSON.stringify(value);
 
-function rewriteSkillReferences(text) {
+function rewriteSkillReferences(text, sourceSkill) {
   return text
     .replace(/`skills\/index\.json`/g, "`skills/index.json`")
     .replace(/`([a-z0-9-]+)\/SKILL\.md`/g, "`skills/$1/SKILL.md`")
     .replace(/`([a-z0-9-]+)\/references\//g, "`skills/$1/references/")
-    .replace(/`([a-z0-9-]+)\/scripts\//g, "`skills/$1/scripts/");
+    .replace(/`([a-z0-9-]+)\/scripts\//g, "`skills/$1/scripts/")
+    .replace(/\]\(references\//g, `](skills/${sourceSkill}/references/`)
+    .replace(/\]\(scripts\//g, `](skills/${sourceSkill}/scripts/`)
+    .replace(/\]\(assets\//g, `](skills/${sourceSkill}/assets/`);
 }
 
 for (const spec of config.packages) {
@@ -25,7 +28,7 @@ for (const spec of config.packages) {
   await rm(join(packageRoot, "skills", ".DS_Store"), { force: true });
 
   const sourceSkill = await readFile(join(sourceRoot, spec.source, "SKILL.md"), "utf8");
-  const entrySkill = rewriteSkillReferences(sourceSkill);
+  const entrySkill = rewriteSkillReferences(sourceSkill, spec.source);
   await writeFile(join(packageRoot, "SKILL.md"), entrySkill);
 
   const manifest = {

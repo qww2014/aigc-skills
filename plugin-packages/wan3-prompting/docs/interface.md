@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "wan3-prompting",
   "name": "Wan 3 Prompting",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "description": "为 Wan 3.0 编写文本生成、首尾帧、参考、编辑与延长提示词。",
   "enabled": true,

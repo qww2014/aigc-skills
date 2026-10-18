@@ -1,0 +1,35 @@
+{
+  "apiVersion": "yingce.plugin/v2",
+  "id": "music-video-production",
+  "name": "Music Video Production",
+  "version": "1.1.0",
+  "author": "qww2014",
+  "description": "处理歌词或 MV 剧本驱动的音乐视频制作、素材导入、9 宫格故事板和 Seedance 任务清单。",
+  "enabled": true,
+  "installable": true,
+  "tags": [
+    "aigc",
+    "canvas",
+    "视频/MV"
+  ],
+  "permissions": [
+    "skill.read",
+    "skill.invoke"
+  ],
+  "configuration": {
+    "fields": []
+  },
+  "contributes": {
+    "skills": [
+      {
+        "id": "music-video-production",
+        "label": "Music Video Production",
+        "category": "视频/MV",
+        "entry": "SKILL.md",
+        "source": "skills/music-video-production/SKILL.md",
+        "protocolBoundaries": []
+      }
+    ]
+  },
+  "documentation": "# Music Video Production\n\n处理歌词或 MV 剧本驱动的音乐视频制作、素材导入、9 宫格故事板和 Seedance 任务清单。\n\n本目录遵循 Canvas `plugin-packages` 风格：根目录的 `SKILL.md` 是安装入口，`manifest.json` 描述包元数据，`skills/` 保存可追溯的完整源规范。\n## 外部 Skill 依赖\n\n本包内的本仓库源规范已完整复制。以下能力由 Canvas 或宿主环境中的独立 Skill 提供：\n\n- `seedance-prompting`\n- `jianying-editor`\n\n## 模型协议边界\n\nMiniMax H3、Seedance 和 Wan 3.0 是三套独立协议；本包不会把它们混写。安装后如需其他协议，请安装对应的独立包。\n\n\n---\n\n# Music Video Production 接口说明\n\n- 包 ID：`music-video-production`\n- Canvas 入口：`SKILL.md`\n- 源规范：`skills/music-video-production/SKILL.md`\n- 完整索引：`skills/index.json`\n- 包格式：由 `build-packages.sh` 生成同名 `.yingce-plugin` ZIP\n\n所有仓库内引用均使用相对路径；本包不携带 `.env`、API key、token、私钥或本机私有配置。\n\n## Manifest\n\n```json\n{\n  \"apiVersion\": \"yingce.plugin/v2\",\n  \"id\": \"music-video-production\",\n  \"name\": \"Music Video Production\",\n  \"version\": \"1.1.0\",\n  \"author\": \"qww2014\",\n  \"description\": \"处理歌词或 MV 剧本驱动的音乐视频制作、素材导入、9 宫格故事板和 Seedance 任务清单。\",\n  \"enabled\": true,\n  \"installable\": true,\n  \"tags\": [\n    \"aigc\",\n    \"canvas\",\n    \"视频/MV\"\n  ],\n  \"permissions\": [\n    \"skill.read\",\n    \"skill.invoke\"\n  ],\n  \"configuration\": {\n    \"fields\": []\n  },\n  \"contributes\": {\n    \"skills\": [\n      {\n        \"id\": \"music-video-production\",\n        \"label\": \"Music Video Production\",\n        \"category\": \"视频/MV\",\n        \"entry\": \"SKILL.md\",\n        \"source\": \"skills/music-video-production/SKILL.md\",\n        \"protocolBoundaries\": []\n      }\n    ]\n  },\n  \"documentation\": \"README.md and docs/interface.md for music-video-production\"\n}\n```\n"
+}

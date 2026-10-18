@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "audiovisual-editing",
   "name": "Audiovisual Editing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "description": "统一处理声画关系、剪辑节奏、连续性、平行剪辑和转场。",
   "enabled": true,

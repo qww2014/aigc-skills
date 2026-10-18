@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "story-to-outline",
   "name": "Story to Outline",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "description": "将故事想法、小说或短片需求发展成结构化故事蓝图与短剧大纲。",
   "enabled": true,

@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "storyboard-and-action",
   "name": "Storyboard and Action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "description": "统一处理镜头语法、景别配方、短剧分镜、叙事短片与动作分镜。",
   "enabled": true,

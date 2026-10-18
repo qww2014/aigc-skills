@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "packages": [
     {
@@ -52,6 +52,14 @@
       "category": "视频",
       "description": "统一处理镜头语法、景别配方、短剧分镜、叙事短片与动作分镜。",
       "source": "storyboard-and-action"
+    },
+    {
+      "id": "music-video-production",
+      "name": "Music Video Production",
+      "category": "视频/MV",
+      "description": "处理歌词或 MV 剧本驱动的音乐视频制作、素材导入、9 宫格故事板和 Seedance 任务清单。",
+      "source": "music-video-production",
+      "externalDependencies": ["seedance-prompting", "jianying-editor"]
     },
     {
       "id": "minimax-h3-prompting",

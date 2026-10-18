@@ -15,7 +15,7 @@
   "apiVersion": "yingce.plugin/v2",
   "id": "jianying-editor",
   "name": "JianYing Editor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "qww2014",
   "description": "剪映 AI 自动化剪辑与草稿管理 Skill。",
   "enabled": true,

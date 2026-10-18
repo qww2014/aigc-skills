@@ -30,6 +30,7 @@ cd plugin-packages
 ## 维护规则
 
 - `skills/` 是完整规范源；`plugin-packages/` 是 Canvas 分发层。
+- 当前默认分发 13 个合并入口；`skills/index.json` 同步记录这些入口与 28 个 legacy 兼容源。
 - H3、Seedance、Wan 3.0 始终保持三个独立入口。
 - 只提交相对路径，不提交 `.env`、密钥、token、私钥或 `config.local.json`。
 - 修改合并入口或 legacy references 后，重新运行 `./build-packages.sh`。

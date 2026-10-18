@@ -13,11 +13,12 @@
 5. `aigc-asset-bible`
 6. `visual-direction`
 7. `storyboard-and-action`
-8. `minimax-h3-prompting`
-9. `seedance-prompting`
-10. `wan3-prompting`
-11. `audiovisual-editing`
-12. `jianying-editor`
+8. `music-video-production`
+9. `minimax-h3-prompting`
+10. `seedance-prompting`
+11. `wan3-prompting`
+12. `audiovisual-editing`
+13. `jianying-editor`
 
 原始 Skill 保留在同一目录下，作为 `legacy_skills` 兼容源。合并入口会按任务需要读取对应的原始 `SKILL.md`、脚本和 references。
 
@@ -51,7 +52,7 @@ cd plugin-packages
 ./build-packages.sh
 ```
 
-本仓库用于长期维护和版本同步；Canvas 端建议按需安装 `plugin-packages/` 下的 12 个合并主入口。`skills/` 是完整规范源，`plugin-packages/` 是分发层，二者不要手工分叉维护。
+本仓库用于长期维护和版本同步；Canvas 端建议按需安装 `plugin-packages/` 下的 13 个合并主入口。`skills/` 是完整规范源，`plugin-packages/` 是分发层，二者不要手工分叉维护。
 
 ## 安全边界
 
